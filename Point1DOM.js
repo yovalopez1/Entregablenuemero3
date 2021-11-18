@@ -11,7 +11,7 @@ if(button){
             var msg = ""
             console.log("aqui")
             if(pasajeroValue == '' || RutaValue == ''){
-                msg = 'Por fovor llene los campos'
+                alert("Por fovor llene los campos")
             }else{
                 console.log("aqui1")
                 if(RutaValue == 'A'){
